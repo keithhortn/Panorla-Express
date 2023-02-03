@@ -25,6 +25,11 @@
         border: 0;
       }
 
+      .footer-top-links {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+
       @media only screen and (max-width: 500px) {
         @media all and (min-width: 0px) {
           .less-padding {
@@ -119,13 +124,15 @@
           <!-- Logo Area -->
           <tr width="100%" class="less-padding" style="padding: 0 92px">
             <td align="center">
-              <img
-                class="logo"
-                style="margin-bottom: 10px"
-                width="159"
-                src="https://keithhorton.dev/email_projects/panorla_express/images/Express.png"
-                alt=""
-              />
+              <a href="#" class="logo-link">
+                <img
+                  class="logo"
+                  style="margin-bottom: 10px"
+                  width="159"
+                  src="https://keithhorton.dev/email_projects/panorla_express/images/Express.png"
+                  alt=""
+                />
+              </a>
             </td>
           </tr>
 
@@ -328,6 +335,7 @@
                       font-size: 20px;
                       font-family: inherit;
                       font-weight: bold;
+                      cursor: pointer;
                     "
                   >
                     Track order
@@ -380,14 +388,22 @@
               >
                 <tr align="center">
                   <td>
-                    <p>Unsubscribe | Privacy | Terms | Shop | My Account</p>
+                    <p>
+                      <a href="#" class="footer-top-links">Unsubscribe</a> |
+                      <a href="#" class="footer-top-links">Privacy</a> |
+                      <a href="#" class="footer-top-links">Terms</a> |
+                      <a href="#" class="footer-top-links">Shop</a> |
+                      <a href="#" class="footer-top-links">My Account</a>
+                    </p>
                     <p style="font-weight: bold">Download our app</p>
-                    <img
-                      class="download-img"
-                      width="128"
-                      src="https://keithhorton.dev/email_projects/panorla_express/images/download-app.png"
-                      alt=""
-                    />
+                    <a href="#" class="app-download-link">
+                      <img
+                        class="download-img"
+                        width="128"
+                        src="https://keithhorton.dev/email_projects/panorla_express/images/download-app.png"
+                        alt=""
+                      />
+                    </a>
                     <p>
                       Panorla Express cares about your privacy. If you receive a
                       request for confidential information (including credit
@@ -399,36 +415,44 @@
                     </p>
                     <tr width="100%">
                       <td align="center" style="padding-top: 21px">
-                        <img
-                          class="social-icons"
-                          style="
-                            border: 2px solid #f7f7f7;
-                            border-radius: 5px;
-                            margin-right: 8px;
-                          "
-                          width="28"
-                          src="https://keithhorton.dev/email_projects/panorla_express/images/instagram-white.png"
-                          alt=""
-                        />
-                        <img
-                          class="social-icons"
-                          style="margin-right: 8px"
-                          width="31"
-                          src="https://keithhorton.dev/email_projects/panorla_express/images/twitter-white.png"
-                          alt=""
-                        />
-                        <img
-                          class="social-icons"
-                          style="margin-right: 8px"
-                          width="31"
-                          src="https://keithhorton.dev/email_projects/panorla_express/images/linkedin-white.png"
-                          alt=""
-                        />
-                        <img
-                          width="31"
-                          src="https://keithhorton.dev/email_projects/panorla_express/images/facebook-white.png"
-                          alt=""
-                        />
+                        <a href="#" class="social-link">
+                          <img
+                            class="social-icons"
+                            style="
+                              border: 2px solid #f7f7f7;
+                              border-radius: 5px;
+                              margin-right: 8px;
+                            "
+                            width="28"
+                            src="https://keithhorton.dev/email_projects/panorla_express/images/instagram-white.png"
+                            alt=""
+                          />
+                        </a>
+                        <a href="#" class="social-link">
+                          <img
+                            class="social-icons"
+                            style="margin-right: 8px"
+                            width="31"
+                            src="https://keithhorton.dev/email_projects/panorla_express/images/twitter-white.png"
+                            alt=""
+                          />
+                        </a>
+                        <a href="#" class="social-link">
+                          <img
+                            class="social-icons"
+                            style="margin-right: 8px"
+                            width="31"
+                            src="https://keithhorton.dev/email_projects/panorla_express/images/linkedin-white.png"
+                            alt=""
+                          />
+                        </a>
+                        <a href="#" class="social-link">
+                          <img
+                            width="31"
+                            src="https://keithhorton.dev/email_projects/panorla_express/images/facebook-white.png"
+                            alt=""
+                          />
+                        </a>
                       </td>
                     </tr>
                   </td>
